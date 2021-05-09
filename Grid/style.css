@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color:grey;
+}
+.wrapper{
+	display: grid;
+	width:60%;
+	margin: 50px auto;
+	#border: 1px solid black;
+	color: balck;
+	grid-template-rows: 70px 250px 250px 70px;
+	grid-template-columns: repeat(3 , auto);
+	grid-gap: 30px;
+    
+}
+.wrapper >div{
+  background-color:white;
+}
+h1{
+	text-align: center;
+  margin:10px;
+}
+h2{
+  text-align:center;
+  margin:5px;
+}
+
+p{
+  font-family:Sans-serif;
+  margin:10px;
+}
+.wrapper__header{
+	grid-column: 1/4;
+}
+
+.wrapper__main{
+		grid-column: 1/4;
+}
+
+.wrapper__footer{
+	grid-column: 1/4;
+}
